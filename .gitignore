@@ -1,0 +1,50 @@
+# Зависимости
+node_modules/
+package-lock.json
+yarn.lock
+
+# Переменные окружения (секреты)
+.env
+.env.local
+*.env
+
+# Сборка
+build/
+dist/
+.next/
+out/
+
+# Логи
+logs/
+*.log
+npm-debug.log*
+
+# База данных (локальная)
+*.sqlite
+*.db
+postgres_data/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# ОС
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Временные файлы
+tmp/
+temp/
+.cache/
+
+# Загрузки (если локально)
+uploads/
+*.pdf
+*.zip
+
+# Исключения (важные файлы)
+!.env.example
+!README.md
+!.gitignore
